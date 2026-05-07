@@ -1,7 +1,25 @@
 export default function WeddingInvitationMockup() {
   return (
     <div className="min-h-screen bg-[#f7f3ee] text-[#2f2f2f] font-serif">
-      
+
+      {/* IMPORTANTE:
+      NO TRADUCIR EL CÓDIGO.
+      NO CAMBIAR:
+      - export default
+      - function
+      - return
+      - className
+      - div
+      - section
+      - img
+      - button
+      - href
+      - target
+      - etc.
+
+      SOLO puedes cambiar los textos visibles.
+      */}
+
       {/* HERO */}
       <section className="relative h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden">
         <img
@@ -109,9 +127,13 @@ export default function WeddingInvitationMockup() {
               </div>
             </div>
 
-            <button className="mt-10 bg-[#8d857c] text-white px-8 py-4 rounded-full hover:opacity-90 transition-all">
+            <a
+              href="https://maps.app.goo.gl/XTMNrE2CLan4kqzZ6"
+              target="_blank"
+              className="inline-block mt-10 bg-[#8d857c] text-white px-8 py-4 rounded-full hover:opacity-90 transition-all"
+            >
               Ver Ubicación
-            </button>
+            </a>
           </div>
         </div>
       </section>
